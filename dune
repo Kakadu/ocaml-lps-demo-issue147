@@ -1,0 +1,13 @@
+(env
+ (dev
+  (flags
+   (:standard -warn-error -9-27-39 -dparsetree))))
+
+(library
+ ; (inline_tests)
+ (name lib1)
+ (modules lib1)
+ (preprocess
+  (pps
+   ; ppx_inline_test
+   ppx_fresh)))
