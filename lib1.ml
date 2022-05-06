@@ -24,6 +24,6 @@ let rev xs =
   helper [] xs
 ;;
 
-(* **)
+(* * *)
 let foo r = fresh a (r === a) (fresh (d e) (d === e))
 let boo r = fresh a (r === a)
